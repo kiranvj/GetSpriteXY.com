@@ -44,7 +44,7 @@ if($_FILES)
         Q: How to use it? <br />
         A: Upload your CSS sprite. The uploaded sprite will be displayed. Use mouse to select an icon. CSS will generated. Copy and use it in your CSS class.<br /><br />
         Icons credit<br />
-        <a href="http://www.gnome.org/" target="_blank">Gnome Desktop Project</a><br /><a href="http://tango.freedesktop.org/" target="_blank">Tango Desktop Project</a><br /><a href="http://p.yusukekamiyamane.com/" target="_blank">Yusuke Kamiyamane</a><br /><br />
+        <a href="http://www.gnome.org/" target="_blank">Gnome Desktop Project</a><br /><a href="http://tango.freedesktop.org/" target="_blank">Tango Desktop Project</a><br /><a href="http://p.yusukekamiyamane.com/" target="_blank">Yusuke Kamiyamane</a><br /><a href="https://ar.al/scribbles/fork-me-on-github-retina-ribbons/" target="_blank">Aral Balkan</a><br />
         <!--<a href="change-log.html">Change log</a>-->
         <span id="close-helper">X</span>
     </div>
