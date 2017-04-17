@@ -109,6 +109,7 @@ if($_FILES)
     Maintained by <a href="http://einternals.com" target="_blank">eInternals</a><br />Fork <a class="crafted" href="https://github.com/kiranvj/GetSpriteXY.com">here</a>
   </div>
 </div>
+<a href="https://github.com/kiranvj/GetSpriteXY.com"><img style="position: absolute; z-index: 5001; top: 0; right: 0; border: 0; width: 149px; height: 149px;" src="images/right-dusk-blue@2x.png" alt="Fork me on GitHub"></a>
 <div style="text-align:center; margin-top:30px;">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- getspritexy-bottom -->
