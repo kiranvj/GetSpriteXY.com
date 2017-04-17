@@ -106,7 +106,7 @@ if($_FILES)
    </div> 
   <div id="footer">
     <span id="version">v1.0.38 &clubs; </span><span>Crafted by <a href="#" class="crafted">Kiran Paul V.J.</a> &clubs; </span>
-    Maintained by <a href="http://einternals.com" target="_blank">eInternals</a>
+    Maintained by <a href="http://einternals.com" target="_blank">eInternals</a><br />Fork <a class="crafted" href="https://github.com/kiranvj/GetSpriteXY.com">here</a>
   </div>
 </div>
 <div style="text-align:center; margin-top:30px;">
@@ -120,6 +120,11 @@ if($_FILES)
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </div>
+<!-- Start visitor map -->
+<div style="width:500px;text-align:center;margin:30px auto;">
+	<script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=5z9f1nqsvgv&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;sx=0" async="async"></script>
+</div>
+<!-- End visitor map -->
 <!--<div id="no-support-message">
   Your browser does not support HTML5 features needed to function this website properly. A version of this site compactable with old browsers is under construction. Meanwhile please use latest Firefox, Chrome, Safari or any other forward thinking browsers.
 </div>
