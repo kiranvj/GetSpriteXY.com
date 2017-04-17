@@ -105,7 +105,7 @@ if($_FILES)
     </div>
    </div> 
   <div id="footer">
-    <span id="version">v1.0.38 &clubs; </span><span>Crafted by <a href="#" class="crafted">Kiran Paul V.J.</a> &clubs; </span>
+    <span id="version">v1.0.b8d04c2 &clubs; </span><span>Crafted by <a href="#" class="crafted">Kiran Paul V.J.</a> &clubs; </span>
     Maintained by <a href="http://einternals.com" target="_blank">eInternals</a><br />Fork <a class="crafted" href="https://github.com/kiranvj/GetSpriteXY.com">here</a>
   </div>
 </div>
