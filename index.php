@@ -123,7 +123,7 @@ if($_FILES)
 </div>
 <!-- Start visitor map -->
 <div style="width:500px;text-align:center;margin:30px auto;">
-	<script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=5z9f1nqsvgv&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;sx=0" async="async"></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=sNUzGC7MvjR16R9fCwDZ7j1CjNocncyjr1HM-jN6N_U&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
 </div>
 <!-- End visitor map -->
 <!--<div id="no-support-message">
