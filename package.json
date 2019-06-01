@@ -1,0 +1,19 @@
+{
+  "name": "getspritexy1.5",
+  "version": "1.5.0",
+  "description": "Get x and y positions in a css sprite to use in background style",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "sprite",
+    "generator"
+  ],
+  "author": "kiranvj.com",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
