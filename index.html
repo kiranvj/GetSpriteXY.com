@@ -92,7 +92,7 @@
                 title="Move this panel to right"
               ></span>
             </div>
-            <form id="info-panel-contents">
+            <div id="info-panel-contents">
               <span> X = <span id="selection-x" class="info-data"></span></span>
               <span> Y = <span id="selection-y" class="info-data"></span></span
               ><br />
@@ -117,12 +117,7 @@
                   </div>
                 </div>
                 <!-- End of .user-background -->
-                <form
-                  id="feedback"
-                  name="feedback"
-                  method="POST"
-                  netlify
-                >
+                <form id="feedback" name="feedback" method="POST" netlify>
                   <h2 style="color:chartreuse">3 second feeback</h2>
                   <p>Did you like this site?</p>
                   <div>
@@ -144,7 +139,11 @@
                           placeholder="(optional - anything you want to tell me)"
                       /></label>
                     </p>
-                    <div><button style="padding:5px;" type="submit">💎 Submit</button></div>
+                    <div>
+                      <button style="padding:5px;" type="submit">
+                        💎 Submit
+                      </button>
+                    </div>
                   </div>
                 </form>
               </div>
