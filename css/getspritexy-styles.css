@@ -74,6 +74,10 @@ h1#page-title {
 #move-panel-right {
   background-image: url(../images/getspritexy-sprite.png);
 }
+.saveaxe {
+  margin-top: 10px;
+  text-align: center;
+}
 /********************************
 
 Settings Panel
