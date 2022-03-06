@@ -12,6 +12,10 @@
       content="css sprite, sprite image, sprite sheet, icon position, background, position, generate css"
     />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"
+    />
     <link href="css/getspritexy-styles.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/jquery.Jcrop.min.css" type="text/css" />
   </head>
@@ -21,18 +25,46 @@
       GetSpriteXY is a tool to get the CSS background positions from a CSS
       sprite. This is favorite amoong web developers and can be useful for
       anyone creating website using css sprites.
-      <p>A handly tool for web developers</p>
+      <p>A handy tool for web developers</p>
     </div>
     <div id="contents">
       <div id="page-wrapper">
         <div id="header">
-          <span class="page-title"><strong>GetSpriteXY 🍉</strong></span>
-          |
-          <h1><a href="#" id="what-why">What, Why, How?</a></h1>
-          <span><img src="images/bell.png" /></span>
-          <span class="bookmark"
-            >Bookmark our <b>NEW url</b> https://getspritexy.netlify.com/</span
-          >
+          <div class="columns is-1 is-vcentered">
+            <div class="column is-narrow">
+              <span class="page-title"><strong>GetSpriteXY 🍉</strong></span>
+            </div>
+            <div class="column is-narrow">
+              <button
+                id="what-why"
+                class="button is-warning is-small is-outlined"
+              >
+                Help
+              </button>
+            </div>
+            <div class="column">
+              <form action="" method="post" enctype="multipart/form-data">
+                <div id="file-upload-container">
+                  <div class="file is-primary is-small">
+                    <label class="file-label">
+                      <input
+                        class="file-input"
+                        type="file"
+                        id="sprite-upload"
+                        name="sprite-upload"
+                      />
+                      <span class="file-cta">
+                        <span class="file-label">
+                          Choose sprite
+                        </span>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
           <div class="hidden-dom" id="helper-window">
             Q: What does this site do ? <br />
             A: Using this site you can find the co-ordinates of the icons inside
@@ -41,28 +73,25 @@
             A: Upload your CSS sprite. The uploaded sprite will be displayed.
             Use mouse to select an icon. CSS will generated. Copy and use it in
             your CSS class.<br /><br />
-            Icons credit<br />
-            <a href="http://www.gnome.org/" target="_blank"
-              >Gnome Desktop Project</a
-            ><br /><a href="http://p.yusukekamiyamane.com/" target="_blank"
-              >Yusuke Kamiyamane</a
-            ><br /><a
-              href="https://ar.al/scribbles/fork-me-on-github-retina-ribbons/"
-              target="_blank"
-              >Aral Balkan</a
-            ><br />
-            <!--<a href="change-log.html">Change log</a>-->
+            <br />
+
             <span id="close-helper">X</span>
           </div>
         </div>
-        <form action="" method="post" enctype="multipart/form-data">
-          <div id="file-upload-container">
-            <label for="sprite-upload"
-              >Click here to use your CSS sprite image
-            </label>
+        <!-- <div class="file">
+          <label class="file-label">
             <input type="file" id="sprite-upload" name="sprite-upload" />
-          </div>
-        </form>
+            <span class="file-cta">
+              <span class="file-icon">
+                <i class="fas fa-upload"></i>
+              </span>
+              <span class="file-label">
+                Choose a file…
+              </span>
+            </span>
+          </label>
+        </div> -->
+
         <div id="settings-panel">
           <div id="change-background-container">
             <span id="color-section-title">Change background color</span>
@@ -233,6 +262,6 @@
 
       ga('create', 'UA-33065764-1', 'auto');
       ga('send', 'pageview');
-    </script>    
+    </script>
   </body>
 </html>

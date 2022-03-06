@@ -56,11 +56,7 @@ h1#page-title {
   font-size: 2em;
   display: inline-block;
 }
-#file-upload-container {
-  padding: 5px 15px 15px;
-  color: #ff0099;
-  font-weight: bold;
-}
+
 #work-area {
   position: relative;
   min-height: 350px;
