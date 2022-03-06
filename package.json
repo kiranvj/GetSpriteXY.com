@@ -22,6 +22,6 @@
     "cssnano": "^4.1.10"
   },
   "dependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.5"
   }
 }
